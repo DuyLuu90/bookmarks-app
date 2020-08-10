@@ -16,6 +16,10 @@
   display: flex;
   justify-content: space-between;
 }
+.BookmarkItem__row h3 {
+  width: 70%;
+  text-align: left;
+}
 
 .BookmarkItem__description {
   text-align: left;
@@ -29,4 +33,14 @@
 .BookmarkItem__buttons {
   font-size: .8em;
   text-align: right;
+}
+.BookmarkItem__buttons button {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-style: none;
+}
+.BookmarkItem__buttons button:hover{
+  cursor: pointer;
+  background-color: rgb(11, 78, 11);
 }

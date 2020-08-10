@@ -17,9 +17,17 @@ h2 {
 
 button {
   border: 1px solid #aaa;
-  background-color: #eee;
   font-size: 1.1em;
   border-radius: 4px;
+}
+.Nav button {
+  background-color: rgb(7, 7, 87);
+  color: white;
+  padding: 10px;
+}
+.Nav button:hover {
+  background-color: rgb(13, 83, 13);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 460px) {
